@@ -7,7 +7,7 @@
     "this-works": "webpack --mode development",
     "this-fails": "gulp"
   },
-  "author": "",
+  "author": "brunomlopes@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.5",

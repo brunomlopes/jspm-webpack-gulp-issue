@@ -21,9 +21,7 @@ gulp.task("default", function() {
       }
       if (stats.hasErrors()) {
         gutil.log(`${"Error"} bundling '${"webpack"}':\n${printStats()}`);
-      }
-      // TODO: mark as webpack
-      else {
+      } else {
         gutil.log(printStats());
       }
       return resolve(stats);
