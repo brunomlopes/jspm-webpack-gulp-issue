@@ -3,6 +3,8 @@
 Try to get jspm, webpack and gulp to play along.
 Currently fails because SystemJS creates a global.System.import, and webpack depends on loader-runner@2.4.0 which tests for global.System.Import and uses that if it exists.
 
+loader-runner@3.0.0 no longer uses global.System.import, which seems to work.
+
 # How to get the issue to appear:
 
 > npm run this-fails
