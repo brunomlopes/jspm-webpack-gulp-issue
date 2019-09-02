@@ -1,0 +1,21 @@
+{
+  "name": "jspm-webpack-gulp",
+  "version": "1.0.0",
+  "description": "Try to get jspm and webpack to cooperate on a gulpfile",
+  "main": "index.js",
+  "scripts": {
+    "this-works": "webpack --mode development",
+    "this-fails": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.6",
+    "jspm": "^0.16.53",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
